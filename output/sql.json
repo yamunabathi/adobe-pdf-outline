@@ -1,0 +1,415 @@
+{
+    "title": "SQL Basic Interview Questions",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "SQL Basic Interview Questions",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "1. What is SQL?",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "2. What is a database?",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "3. What are the main types of SQL commands?",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "4. What is the difference between CHAR and VARCHAR2 data types?",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "5. What is a primary key?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "6. What is a foreign key?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "7. What is the purpose of the DEFAULT constraint?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "8. What is normalization in databases?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "9. What is denormalization, and when is it used?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "10. What is a query in SQL?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "11. What are the different operators available in SQL?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "12. What is a view in SQL?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "13. What is the purpose of the UNIQUE constraint?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "14. What are the different types of joins in SQL?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "15. What is the difference between INNER JOIN and OUTER JOIN?",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "16. What is the purpose of the GROUP BY clause?",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "17. What are aggregate functions in SQL?",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "18. What is a subquery?",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "19. What is the difference between the WHERE and HAVING clauses?",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "20. What are indexes, and why are they used?",
+            "page": 5
+        },
+        {
+            "level": "H3",
+            "text": "21. What is the difference between DELETE and TRUNCATE commands?",
+            "page": 5
+        },
+        {
+            "level": "H3",
+            "text": "22. What is the purpose of the SQL ORDER BY clause?",
+            "page": 5
+        },
+        {
+            "level": "H3",
+            "text": "23. What are the differences between SQL and NoSQL databases?",
+            "page": 5
+        },
+        {
+            "level": "H3",
+            "text": "24. What is a table in SQL?",
+            "page": 6
+        },
+        {
+            "level": "H3",
+            "text": "25. What are the types of constraints in SQL?",
+            "page": 6
+        },
+        {
+            "level": "H3",
+            "text": "26. What is a cursor in SQL?",
+            "page": 6
+        },
+        {
+            "level": "H3",
+            "text": "27. What is a trigger in SQL?",
+            "page": 6
+        },
+        {
+            "level": "H3",
+            "text": "28. What is the purpose of the SQL SELECT statement?",
+            "page": 7
+        },
+        {
+            "level": "H3",
+            "text": "29. What are NULL values in SQL?",
+            "page": 7
+        },
+        {
+            "level": "H3",
+            "text": "30. What is a stored procedure?",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "SQL Intermediate Interview Questions",
+            "page": 7
+        },
+        {
+            "level": "H3",
+            "text": "31. What is the difference between DDL and DML commands?",
+            "page": 7
+        },
+        {
+            "level": "H3",
+            "text": "32. What is the purpose of the ALTER command in SQL?",
+            "page": 8
+        },
+        {
+            "level": "H3",
+            "text": "33. What is a composite primary key?",
+            "page": 8
+        },
+        {
+            "level": "H3",
+            "text": "34. How is data integrity maintained in SQL databases?",
+            "page": 9
+        },
+        {
+            "level": "H3",
+            "text": "35. What are the advantages of using stored procedures?",
+            "page": 9
+        },
+        {
+            "level": "H3",
+            "text": "36. What is a UNION operation, and how is it used?",
+            "page": 10
+        },
+        {
+            "level": "H3",
+            "text": "37. What is the difference between UNION and UNION ALL?",
+            "page": 10
+        },
+        {
+            "level": "H3",
+            "text": "38. How does the CASE statement work in SQL?",
+            "page": 11
+        },
+        {
+            "level": "H3",
+            "text": "39. What are scalar functions in SQL?",
+            "page": 11
+        },
+        {
+            "level": "H3",
+            "text": "40. What is the purpose of the COALESCE function?",
+            "page": 11
+        },
+        {
+            "level": "H3",
+            "text": "41. What are the differences between SQL’s COUNT() and SUM() functions?",
+            "page": 12
+        },
+        {
+            "level": "H3",
+            "text": "42. What is the difference between the NVL and NVL2 functions?",
+            "page": 12
+        },
+        {
+            "level": "H3",
+            "text": "43. How does the RANK() function differ from DENSE_RANK()?",
+            "page": 12
+        },
+        {
+            "level": "H3",
+            "text": "44. What is the difference between ROW_NUMBER() and RANK()?",
+            "page": 13
+        },
+        {
+            "level": "H3",
+            "text": "45. What are common table expressions (CTEs) in SQL?",
+            "page": 13
+        },
+        {
+            "level": "H3",
+            "text": "46. What are window functions, and how are they used?",
+            "page": 14
+        },
+        {
+            "level": "H3",
+            "text": "47. What is the difference between an index and a key in SQL?",
+            "page": 14
+        },
+        {
+            "level": "H3",
+            "text": "48. How does indexing improve query performance?",
+            "page": 14
+        },
+        {
+            "level": "H3",
+            "text": "49. What are the trade-offs of using indexes in SQL databases?",
+            "page": 15
+        },
+        {
+            "level": "H3",
+            "text": "50. What is the difference between clustered and non-clustered indexes?",
+            "page": 15
+        },
+        {
+            "level": "H3",
+            "text": "51. What are temporary tables, and how are they used?",
+            "page": 16
+        },
+        {
+            "level": "H3",
+            "text": "52. What is a materialized view, and how does it differ from a standard view?",
+            "page": 17
+        },
+        {
+            "level": "H3",
+            "text": "53. What is a sequence in SQL?",
+            "page": 17
+        },
+        {
+            "level": "H3",
+            "text": "54. What are the advantages of using sequences over identity columns?",
+            "page": 17
+        },
+        {
+            "level": "H3",
+            "text": "55. How do constraints improve database integrity?",
+            "page": 18
+        },
+        {
+            "level": "H3",
+            "text": "56. What is the difference between a local and a global temporary table?",
+            "page": 18
+        },
+        {
+            "level": "H3",
+            "text": "57. What is the purpose of the SQL MERGE statement?",
+            "page": 19
+        },
+        {
+            "level": "H3",
+            "text": "58. How can you handle duplicates in a query without using DISTINCT?",
+            "page": 19
+        },
+        {
+            "level": "H3",
+            "text": "59. What is a correlated subquery?",
+            "page": 20
+        },
+        {
+            "level": "H3",
+            "text": "60. What are partitioned tables, and when should we use them?",
+            "page": 20
+        },
+        {
+            "level": "H2",
+            "text": "SQL Advanced Interview Questions",
+            "page": 20
+        },
+        {
+            "level": "H3",
+            "text": "61. What are the ACID properties of a transaction?",
+            "page": 21
+        },
+        {
+            "level": "H3",
+            "text": "62. What are the differences between isolation levels in SQL?",
+            "page": 21
+        },
+        {
+            "level": "H3",
+            "text": "63. What is the purpose of the WITH (NOLOCK) hint in SQL Server?",
+            "page": 22
+        },
+        {
+            "level": "H3",
+            "text": "64. How do you handle deadlocks in SQL databases?",
+            "page": 23
+        },
+        {
+            "level": "H3",
+            "text": "65. What is a database snapshot, and how is it used?",
+            "page": 24
+        },
+        {
+            "level": "H3",
+            "text": "66. What are the differences between OLTP and OLAP systems?",
+            "page": 24
+        },
+        {
+            "level": "H3",
+            "text": "67. What is a live lock, and how does it differ from a deadlock?",
+            "page": 25
+        },
+        {
+            "level": "H3",
+            "text": "68. What is the purpose of the SQL EXCEPT operator?",
+            "page": 25
+        },
+        {
+            "level": "H3",
+            "text": "69. How do you implement dynamic SQL, and what are its advantages and risks?",
+            "page": 26
+        },
+        {
+            "level": "H3",
+            "text": "70. What is the difference between horizontal and vertical partitioning?",
+            "page": 27
+        },
+        {
+            "level": "H3",
+            "text": "71. What are the considerations for indexing very large tables?",
+            "page": 27
+        },
+        {
+            "level": "H3",
+            "text": "72. What is the difference between database sharding and partitioning?",
+            "page": 28
+        },
+        {
+            "level": "H3",
+            "text": "73. What are the best practices for writing optimized SQL queries?",
+            "page": 29
+        },
+        {
+            "level": "H3",
+            "text": "74. How can you monitor query performance in a production database?",
+            "page": 30
+        },
+        {
+            "level": "H3",
+            "text": "75. What are the trade-offs of using indexing versus denormalization?",
+            "page": 31
+        },
+        {
+            "level": "H3",
+            "text": "76. How does SQL handle recursive queries?",
+            "page": 32
+        },
+        {
+            "level": "H3",
+            "text": "77. What are the differences between transactional and analytical queries?",
+            "page": 33
+        },
+        {
+            "level": "H3",
+            "text": "78. How can you ensure data consistency across distributed databases?",
+            "page": 34
+        },
+        {
+            "level": "H3",
+            "text": "79. What is the purpose of the SQL PIVOT operator?",
+            "page": 34
+        }
+    ]
+}

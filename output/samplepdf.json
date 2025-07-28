@@ -1,0 +1,110 @@
+{
+    "title": "Document Accessibility (inferred - untitled PDF)",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "Document Accessibility",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "Topics",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "What is Digital Accessibility?",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "Digital Accessibility is a Legal Requirement",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Creating Accessible Documents",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Give Your Document an Accessible Title Make sure the document title is readable and properly describes the topic of the document.",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "Headings",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Example of Accessible Heading Structure",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Alt Text",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Alt Text for Descriptive Images",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Alt Text for Decorative Images",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Alt Text for Image Links",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Lists",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Link Text",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Color Contrast",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Other Best Practices for Accessible Documents",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Check Your Document for Accessibility",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Automated Checkers Can’t Catch Everything",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Save Your PDF Appropriately",
+            "page": 20
+        },
+        {
+            "level": "H3",
+            "text": "Do not print to PDF to save your file • For Microsoft products, Use File > Save As or File > Save a Copy",
+            "page": 20
+        },
+        {
+            "level": "H2",
+            "text": "Learn More About Digital Accessibility",
+            "page": 21
+        }
+    ]
+}
